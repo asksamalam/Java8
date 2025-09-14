@@ -17,8 +17,13 @@ public class Hashmap_practice {
         }
     }
 }
-class Person{
+class Person implements Comparable<Person>{
     String name;
     String salary;
     String department;
+
+    @Override
+    public int compareTo(Person o) {
+        return 0;
+    }
 }
