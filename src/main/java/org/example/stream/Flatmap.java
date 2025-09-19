@@ -1,11 +1,13 @@
 package org.example.stream;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class Flatmap {
     public void main(String[] args){
+        List<List<Integer>> arrayList = Arrays.asList(Arrays.asList(1,2),Arrays.asList(6,4),Arrays.asList(8,9));
         List<User> users = Arrays.asList(
                 new User("Sam", Arrays.asList("sam@gmail.com", "sam@yahoo.com")),
                 new User("Alex", Arrays.asList("alex@gmail.com", "sam@gmail.com")),
@@ -33,6 +35,8 @@ public class Flatmap {
         System.out.println(getAllHashtags(posts));
         // Find distinct character
         System.out.println(getUniqueCharacters(words));
+        // Flattern the Integer nested list
+        System.out.println(getFlatterList(arrayList));
 
     }
 
@@ -47,6 +51,9 @@ public class Flatmap {
     }
     static List<String> getUniqueCharacters(List<String> words){
         return words.stream().flatMap(w -> Arrays.stream(w.split(""))).distinct().collect(Collectors.toList());
+    }
+    static List<Integer> getFlatterList(List<List<Integer>> numbers){
+        return numbers.stream().flatMap(Collection::stream).distinct().sorted().collect(Collectors.toList());
     }
 }
 
