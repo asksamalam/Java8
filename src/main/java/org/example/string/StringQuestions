@@ -1,0 +1,97 @@
+🧩 Top String Coding Questions (With Difficulty Levels)
+✅ Basic Level
+
+Reverse a String
+→ Example: "Java" → "avaJ"
+
+Check if a String is Palindrome
+→ Example: "madam" → true
+
+Count the number of vowels and consonants in a String
+→ Example: "Hello" → vowels = 2, consonants = 3
+
+Count the number of words in a sentence
+→ Example: "I love Java" → 3
+
+Find the frequency of characters in a String
+→ Example: "banana" → {b=1, a=3, n=2}
+
+Check if two Strings are Anagrams
+→ Example: "listen" & "silent" → true
+
+Remove all white spaces from a String
+→ Example: "Java Developer" → "JavaDeveloper"
+
+Convert a String to a character array and vice versa
+
+Compare two Strings without using equals() method
+
+Change the case of each character
+→ "Java" → "jAVA"
+
+⚙️ Intermediate Level
+
+Find the first non-repeating character in a String
+→ Example: "swiss" → 'w'
+
+Find the first repeated character in a String
+→ Example: "programming" → 'r'
+
+Check if String contains only digits
+
+Count occurrences of a given character in a String
+
+Remove duplicate characters from a String
+→ Example: "programming" → "progamin"
+
+Reverse each word in a sentence
+→ "Java is fun" → "avaJ si nuf"
+
+Check if two Strings are rotations of each other
+→ "ABCD" and "CDAB" → true
+
+Find all permutations of a String
+→ "abc" → "abc", "acb", "bac", "bca", "cab", "cba"
+
+Check if String contains only unique characters
+
+Count frequency of each word in a sentence
+
+💡 Advanced / Tricky Level
+
+Find the longest substring without repeating characters
+→ "abcabcbb" → "abc" (length 3)
+
+Find the longest palindrome substring
+→ "babad" → "bab" or "aba"
+
+Find the longest common prefix among array of Strings
+→ ["flower", "flow", "flight"] → "fl"
+
+Implement String compression (e.g., "aabcccccaaa" → "a2b1c5a3")
+
+Check if one String can be formed by interleaving two others
+
+Implement custom String reverse using recursion
+
+Remove all occurrences of a given substring
+→ "ababc" remove "ab" → "c"
+
+Find all substrings of a given String
+
+Check if a String is a valid shuffle of two Strings
+→ "abc" & "def" → "adbcef" → true
+
+Implement your own String.equals() and String.hashCode() logic
+
+⚔️ Bonus Practical Questions (Common in TCS / Infosys / Product Interviews)
+
+Difference between String, StringBuilder, and StringBuffer (with demo code)
+
+Why are Strings immutable in Java? Write code that shows the effect.
+
+Reverse words in place without using split()
+
+Find substring occurrence count using indexOf() and loops.
+
+Validate if a given email or mobile number string is valid using regex.
